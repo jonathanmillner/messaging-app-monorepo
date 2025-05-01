@@ -40,6 +40,9 @@ git clone https://github.com/jonathanmillner/messaging-app-monorepo.git
 ```
 
 ### 2. Backend Setup
+```
+cd backend
+```
 #### Create & Activate Virtual Environment
 - macOS/Linux:
 ```
@@ -54,7 +57,7 @@ python -m venv venv
 
 #### Install Python Dependencies
 ```
-pip install fastapi uvicorn passlib python-dotenv
+pip install fastapi uvicorn passlib python-dotenv pydantic-settings
 ```
 
 #### Run the Server
