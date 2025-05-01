@@ -1,0 +1,6 @@
+# > _Notes_:
+# > - Passwords are hashed via PBKDF2-HMAC-SHA256 with the app’s SECRET_KEY as salt.
+
+# username,hashed_password,role
+admin,$pbkdf2-sha256$29000$/H9vzVkrxbg3JmTMGaMUIg$09aghZdekW6x8l9WxbMdKTXFXU/p2lrgulk0YDFPxU4,admin
+readonly,$pbkdf2-sha256$29000$O4dwLuXcO2esFcI4pxQiJA$vEjCTAAg8EgXihj090DM5n8S8vRb1BYbQ8cK.mfceLE,readonly
