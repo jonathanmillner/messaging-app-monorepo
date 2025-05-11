@@ -40,6 +40,7 @@ git clone https://github.com/jonathanmillner/messaging-app-monorepo.git
 ```
 
 ### 2. Backend Setup
+At the root of the cloned repo:
 ```
 cd backend
 ```
